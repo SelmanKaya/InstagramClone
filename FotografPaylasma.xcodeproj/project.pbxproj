@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		38575A072D1DC29400B495F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385759E82D1DC29100B495F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385759EF2D1DC29100B495F7;
+			remoteInfo = FotografPaylasma;
+		};
+		38575A112D1DC29400B495F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 385759E82D1DC29100B495F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385759EF2D1DC29100B495F7;
+			remoteInfo = FotografPaylasma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		385759F02D1DC29100B495F7 /* FotografPaylasma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotografPaylasma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38575A062D1DC29400B495F7 /* FotografPaylasmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotografPaylasmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38575A102D1DC29400B495F7 /* FotografPaylasmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotografPaylasmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		38575A182D1DC29400B495F7 /* Exceptions for "FotografPaylasma" folder in "FotografPaylasma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 385759EF2D1DC29100B495F7 /* FotografPaylasma */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		385759F22D1DC29100B495F7 /* FotografPaylasma */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				38575A182D1DC29400B495F7 /* Exceptions for "FotografPaylasma" folder in "FotografPaylasma" target */,
+			);
+			path = FotografPaylasma;
+			sourceTree = "<group>";
+		};
+		38575A092D1DC29400B495F7 /* FotografPaylasmaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FotografPaylasmaTests;
+			sourceTree = "<group>";
+		};
+		38575A132D1DC29400B495F7 /* FotografPaylasmaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FotografPaylasmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		385759ED2D1DC29100B495F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38575A032D1DC29400B495F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38575A0D2D1DC29400B495F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385759E72D1DC29100B495F7 = {
+			isa = PBXGroup;
+			children = (
+				385759F22D1DC29100B495F7 /* FotografPaylasma */,
+				38575A092D1DC29400B495F7 /* FotografPaylasmaTests */,
+				38575A132D1DC29400B495F7 /* FotografPaylasmaUITests */,
+				385759F12D1DC29100B495F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		385759F12D1DC29100B495F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385759F02D1DC29100B495F7 /* FotografPaylasma.app */,
+				38575A062D1DC29400B495F7 /* FotografPaylasmaTests.xctest */,
+				38575A102D1DC29400B495F7 /* FotografPaylasmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385759EF2D1DC29100B495F7 /* FotografPaylasma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38575A192D1DC29400B495F7 /* Build configuration list for PBXNativeTarget "FotografPaylasma" */;
+			buildPhases = (
+				385759EC2D1DC29100B495F7 /* Sources */,
+				385759ED2D1DC29100B495F7 /* Frameworks */,
+				385759EE2D1DC29100B495F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				385759F22D1DC29100B495F7 /* FotografPaylasma */,
+			);
+			name = FotografPaylasma;
+			packageProductDependencies = (
+			);
+			productName = FotografPaylasma;
+			productReference = 385759F02D1DC29100B495F7 /* FotografPaylasma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38575A052D1DC29400B495F7 /* FotografPaylasmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38575A1E2D1DC29400B495F7 /* Build configuration list for PBXNativeTarget "FotografPaylasmaTests" */;
+			buildPhases = (
+				38575A022D1DC29400B495F7 /* Sources */,
+				38575A032D1DC29400B495F7 /* Frameworks */,
+				38575A042D1DC29400B495F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38575A082D1DC29400B495F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38575A092D1DC29400B495F7 /* FotografPaylasmaTests */,
+			);
+			name = FotografPaylasmaTests;
+			packageProductDependencies = (
+			);
+			productName = FotografPaylasmaTests;
+			productReference = 38575A062D1DC29400B495F7 /* FotografPaylasmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38575A0F2D1DC29400B495F7 /* FotografPaylasmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38575A212D1DC29400B495F7 /* Build configuration list for PBXNativeTarget "FotografPaylasmaUITests" */;
+			buildPhases = (
+				38575A0C2D1DC29400B495F7 /* Sources */,
+				38575A0D2D1DC29400B495F7 /* Frameworks */,
+				38575A0E2D1DC29400B495F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38575A122D1DC29400B495F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38575A132D1DC29400B495F7 /* FotografPaylasmaUITests */,
+			);
+			name = FotografPaylasmaUITests;
+			packageProductDependencies = (
+			);
+			productName = FotografPaylasmaUITests;
+			productReference = 38575A102D1DC29400B495F7 /* FotografPaylasmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		385759E82D1DC29100B495F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					385759EF2D1DC29100B495F7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					38575A052D1DC29400B495F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 385759EF2D1DC29100B495F7;
+					};
+					38575A0F2D1DC29400B495F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 385759EF2D1DC29100B495F7;
+					};
+				};
+			};
+			buildConfigurationList = 385759EB2D1DC29100B495F7 /* Build configuration list for PBXProject "FotografPaylasma" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 385759E72D1DC29100B495F7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 385759F12D1DC29100B495F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385759EF2D1DC29100B495F7 /* FotografPaylasma */,
+				38575A052D1DC29400B495F7 /* FotografPaylasmaTests */,
+				38575A0F2D1DC29400B495F7 /* FotografPaylasmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		385759EE2D1DC29100B495F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38575A042D1DC29400B495F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38575A0E2D1DC29400B495F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385759EC2D1DC29100B495F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38575A022D1DC29400B495F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38575A0C2D1DC29400B495F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38575A082D1DC29400B495F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385759EF2D1DC29100B495F7 /* FotografPaylasma */;
+			targetProxy = 38575A072D1DC29400B495F7 /* PBXContainerItemProxy */;
+		};
+		38575A122D1DC29400B495F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385759EF2D1DC29100B495F7 /* FotografPaylasma */;
+			targetProxy = 38575A112D1DC29400B495F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38575A1A2D1DC29400B495F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9X5U8Z5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotografPaylasma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FotografPaylasma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38575A1B2D1DC29400B495F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9X5U8Z5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotografPaylasma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FotografPaylasma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38575A1C2D1DC29400B495F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38575A1D2D1DC29400B495F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38575A1F2D1DC29400B495F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9X5U8Z5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FotografPaylasmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotografPaylasma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FotografPaylasma";
+			};
+			name = Debug;
+		};
+		38575A202D1DC29400B495F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9X5U8Z5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FotografPaylasmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotografPaylasma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FotografPaylasma";
+			};
+			name = Release;
+		};
+		38575A222D1DC29400B495F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9X5U8Z5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FotografPaylasmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FotografPaylasma;
+			};
+			name = Debug;
+		};
+		38575A232D1DC29400B495F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9X5U8Z5H6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FotografPaylasmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FotografPaylasma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385759EB2D1DC29100B495F7 /* Build configuration list for PBXProject "FotografPaylasma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38575A1C2D1DC29400B495F7 /* Debug */,
+				38575A1D2D1DC29400B495F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38575A192D1DC29400B495F7 /* Build configuration list for PBXNativeTarget "FotografPaylasma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38575A1A2D1DC29400B495F7 /* Debug */,
+				38575A1B2D1DC29400B495F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38575A1E2D1DC29400B495F7 /* Build configuration list for PBXNativeTarget "FotografPaylasmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38575A1F2D1DC29400B495F7 /* Debug */,
+				38575A202D1DC29400B495F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38575A212D1DC29400B495F7 /* Build configuration list for PBXNativeTarget "FotografPaylasmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38575A222D1DC29400B495F7 /* Debug */,
+				38575A232D1DC29400B495F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 385759E82D1DC29100B495F7 /* Project object */;
+}
