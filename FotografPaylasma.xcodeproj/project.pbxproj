@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		381C9C3D2D205D1F007916B0 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 381C9C3C2D205D1F007916B0 /* SDWebImage */; };
+		381C9C3F2D205D25007916B0 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 381C9C3E2D205D25007916B0 /* SDWebImageMapKit */; };
+		38575A292D1DC68000B495F7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38575A282D1DC68000B495F7 /* FirebaseAuth */; };
+		38575A2B2D1DC69000B495F7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38575A2A2D1DC69000B495F7 /* FirebaseFirestore */; };
+		38575A2D2D1DC69900B495F7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 38575A2C2D1DC69900B495F7 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		38575A072D1DC29400B495F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38575A292D1DC68000B495F7 /* FirebaseAuth in Frameworks */,
+				381C9C3F2D205D25007916B0 /* SDWebImageMapKit in Frameworks */,
+				38575A2B2D1DC69000B495F7 /* FirebaseFirestore in Frameworks */,
+				381C9C3D2D205D1F007916B0 /* SDWebImage in Frameworks */,
+				38575A2D2D1DC69900B495F7 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +104,7 @@
 				385759F22D1DC29100B495F7 /* FotografPaylasma */,
 				38575A092D1DC29400B495F7 /* FotografPaylasmaTests */,
 				38575A132D1DC29400B495F7 /* FotografPaylasmaUITests */,
+				38575A272D1DC68000B495F7 /* Frameworks */,
 				385759F12D1DC29100B495F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +117,13 @@
 				38575A102D1DC29400B495F7 /* FotografPaylasmaUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		38575A272D1DC68000B495F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +146,11 @@
 			);
 			name = FotografPaylasma;
 			packageProductDependencies = (
+				38575A282D1DC68000B495F7 /* FirebaseAuth */,
+				38575A2A2D1DC69000B495F7 /* FirebaseFirestore */,
+				38575A2C2D1DC69900B495F7 /* FirebaseStorage */,
+				381C9C3C2D205D1F007916B0 /* SDWebImage */,
+				381C9C3E2D205D25007916B0 /* SDWebImageMapKit */,
 			);
 			productName = FotografPaylasma;
 			productReference = 385759F02D1DC29100B495F7 /* FotografPaylasma.app */;
@@ -208,6 +234,10 @@
 			);
 			mainGroup = 385759E72D1DC29100B495F7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				38575A262D1DC5F900B495F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				381C9C1B2D205634007916B0 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 385759F12D1DC29100B495F7 /* Products */;
 			projectDirPath = "";
@@ -569,6 +599,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		381C9C1B2D205634007916B0 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+		38575A262D1DC5F900B495F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		381C9C3C2D205D1F007916B0 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 381C9C1B2D205634007916B0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		381C9C3E2D205D25007916B0 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 381C9C1B2D205634007916B0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		38575A282D1DC68000B495F7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38575A262D1DC5F900B495F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		38575A2A2D1DC69000B495F7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38575A262D1DC5F900B495F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		38575A2C2D1DC69900B495F7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38575A262D1DC5F900B495F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 385759E82D1DC29100B495F7 /* Project object */;
 }
