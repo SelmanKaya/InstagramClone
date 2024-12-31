@@ -38,7 +38,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		38575A182D1DC29400B495F7 /* Exceptions for "FotografPaylasma" folder in "FotografPaylasma" target */ = {
+		381C9C812D241528007916B0 /* Exceptions for "FotografPaylasma" folder in "FotografPaylasma" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -48,10 +48,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		385759F22D1DC29100B495F7 /* FotografPaylasma */ = {
+		381C9C732D241528007916B0 /* FotografPaylasma */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				38575A182D1DC29400B495F7 /* Exceptions for "FotografPaylasma" folder in "FotografPaylasma" target */,
+				381C9C812D241528007916B0 /* Exceptions for "FotografPaylasma" folder in "FotografPaylasma" target */,
 			);
 			path = FotografPaylasma;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 		385759E72D1DC29100B495F7 = {
 			isa = PBXGroup;
 			children = (
-				385759F22D1DC29100B495F7 /* FotografPaylasma */,
+				381C9C732D241528007916B0 /* FotografPaylasma */,
 				38575A092D1DC29400B495F7 /* FotografPaylasmaTests */,
 				38575A132D1DC29400B495F7 /* FotografPaylasmaUITests */,
 				38575A272D1DC68000B495F7 /* Frameworks */,
@@ -142,7 +142,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				385759F22D1DC29100B495F7 /* FotografPaylasma */,
+				381C9C732D241528007916B0 /* FotografPaylasma */,
 			);
 			name = FotografPaylasma;
 			packageProductDependencies = (
