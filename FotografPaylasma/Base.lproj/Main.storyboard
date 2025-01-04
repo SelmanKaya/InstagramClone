@@ -176,6 +176,100 @@
             </objects>
             <point key="canvasLocation" x="1765.6488549618321" y="288.73239436619718"/>
         </scene>
+        <!--Chat List View Controller-->
+        <scene sceneID="fwo-U5-NL6">
+            <objects>
+                <viewController id="fLP-9y-ah7" customClass="ChatListViewController" customModule="FotografPaylasma" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RhQ-nf-NPa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Jb8-uB-aOY">
+                                <rect key="frame" x="0.0" y="44" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UserCell" id="SR4-iN-QPU">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SR4-iN-QPU" id="t8L-Ym-FVE">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="edK-nI-U8M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jb8-uB-aOY" firstAttribute="leading" secondItem="edK-nI-U8M" secondAttribute="leading" id="EUs-Eg-axk"/>
+                            <constraint firstItem="edK-nI-U8M" firstAttribute="trailing" secondItem="Jb8-uB-aOY" secondAttribute="trailing" id="I3L-pI-QG2"/>
+                            <constraint firstItem="Jb8-uB-aOY" firstAttribute="top" secondItem="edK-nI-U8M" secondAttribute="top" id="UWE-EV-I2y"/>
+                            <constraint firstItem="edK-nI-U8M" firstAttribute="bottom" secondItem="Jb8-uB-aOY" secondAttribute="bottom" id="nxg-Ce-KbJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rgf-K2-h2F"/>
+                    <connections>
+                        <outlet property="tableView" destination="Jb8-uB-aOY" id="8sU-mg-qDU"/>
+                        <segue destination="50Y-01-4mR" kind="show" identifier="showChat" id="YeQ-Ys-pdc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W4T-Ko-1No" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2753.4351145038167" y="-1040.1408450704225"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="HSb-jO-DbU">
+            <objects>
+                <viewController id="50Y-01-4mR" customClass="ChatViewController" customModule="FotografPaylasma" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y5Q-E7-abI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="XSv-Pm-6PA">
+                                <rect key="frame" x="0.0" y="63" width="393" height="639"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageBlockCell" rowHeight="42" id="f8a-gh-TgI" customClass="ChatTableViewCell" customModule="FotografPaylasma" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="42"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f8a-gh-TgI" id="lWP-s8-Dyu">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="42"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mesaj Gonder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YAT-tp-qcm">
+                                <rect key="frame" x="16" y="705" width="284" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaM-77-4gu">
+                                <rect key="frame" x="308" y="704" width="85" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Gonder"/>
+                                <connections>
+                                    <action selector="sendMessage:" destination="50Y-01-4mR" eventType="touchUpInside" id="Yt4-Vx-pQJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A53-8j-i5T"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="K6G-6k-aOp"/>
+                    <connections>
+                        <outlet property="chatTableView" destination="XSv-Pm-6PA" id="Xw2-Wl-QtX"/>
+                        <outlet property="messageTextField" destination="YAT-tp-qcm" id="4KC-H9-EBM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L89-91-s1u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3756.4885496183206" y="-1040.1408450704225"/>
+        </scene>
         <!--Feed-->
         <scene sceneID="1eg-Hd-EVJ">
             <objects>
@@ -280,17 +374,38 @@
                         <segue destination="gio-1H-I3I" kind="relationship" relationship="viewControllers" id="M1U-tf-nHe"/>
                         <segue destination="wyw-WK-j0Z" kind="relationship" relationship="viewControllers" id="wQL-HA-8tL"/>
                         <segue destination="lh5-XB-wGh" kind="relationship" relationship="viewControllers" id="RlS-BQ-PIS"/>
+                        <segue destination="s74-XU-K1m" kind="relationship" relationship="viewControllers" id="orZ-zK-NhM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1TL-CW-oru" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="861" y="-83"/>
         </scene>
+        <!--Chat-->
+        <scene sceneID="LXy-IG-z9q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s74-XU-K1m" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chat" image="message" catalog="system" id="MM3-un-QQK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nJG-mk-JOU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fLP-9y-ah7" kind="relationship" relationship="rootViewController" id="lzI-7N-vJ5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2h-NK-6qD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1826.7175572519084" y="-1040.1408450704225"/>
+        </scene>
     </scenes>
     <resources>
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <image name="izmir" width="3000" height="2000"/>
         <image name="lasso" catalog="system" width="128" height="121"/>
+        <image name="message" catalog="system" width="128" height="116"/>
         <image name="square.and.arrow.up" catalog="system" width="110" height="128"/>
         <namedColor name="WidgetBackground">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
