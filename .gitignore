@@ -1,0 +1,45 @@
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+build/
+
+# Swift Package Manager
+Packages/
+*.xcodeproj/project.xcworkspace
+
+# CocoaPods
+Pods/
+
+# Firebase
+GoogleService-Info.plist
+firebase_crashlytics/
+
+# Logs
+*.log
+*.tmp
+
+# Certificates and Keys
+*.pem
+*.key
+*.crt
+
+# User-specific files
+*.xcuserdata/
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+DerivedData/
+build/
+
+# Swift Package Manager
+Packages/
+*.xcodeproj/project.xcworkspace
+
